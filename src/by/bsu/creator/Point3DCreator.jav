@@ -1,4 +1,5 @@
 package by.bsu.creator;
+
 public class Point3DCreator extends Point2DCreator{
 	@Override
 	public Point3D createPoint(){
