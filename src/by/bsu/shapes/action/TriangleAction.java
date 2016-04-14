@@ -7,7 +7,7 @@ public class TriangleAction implements IShapeAction{
 		double square = 0;
 		if(shape instanceof Triangle){
 			Triangle triangle = (Triangle) shape;
-			square = 1 / 2 * triangle.getA() * triangle.getB() * Math.sin(triangle.getAngle());
+			//square = 1 / 2 * triangle.getA() * triangle.getB() * Math.sin(triangle.getAngle());
 		} else{
 			throw new IllegalArgumentException("Incompatible shape" + shape.getClass());
 		}

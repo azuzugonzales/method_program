@@ -1,6 +1,6 @@
 package by.bsu.nested;
 public interface University{
-	int NUMBER_FACULTY = 20
+	int NUMBER_FACULTY = 20;
 	void create();
 	class LearningDepartment{
 		public int idChief;
