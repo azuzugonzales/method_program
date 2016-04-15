@@ -1,25 +1,24 @@
 package by.bsu.shapes.entity;
-import static java.lang.Math.*;
+
+import static java.lang.Math.cos;
+import static java.lang.Math.pow;
 
 public class Triangle extends AbstractShape{
 	private double b;
-	private double c;
-	//private double angle;
-	//public Triangle(double a, double b, double angle){
-	public Triangle(double a, double b, double c){
+	private double angle;
+	public Triangle(double a, double b, double angle){
 		super(a);
 		this.b = b;
-		this.c = c;
-		//this.angle = angle;
+		this.angle = angle;
 	}
-	/*public double getAngle(){
+	public double getAngle(){
 		return angle;
-	}*/
+	}
 	public double getB(){
 		return b;
 	}
 	public double getC(){
-		//double c = getA() + b; a := sqrt(b*b+c*c-2*b*c*cos(alpha));
+		double c = pow(getA(), 2) + pow(b, 2) - 2 * getA() * b * cos(angle);
 		return c;
 	}
 }
