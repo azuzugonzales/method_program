@@ -1,6 +1,7 @@
 package by.bsu.shapes.action;
 
-
+import by.bsu.shapes.action.entity.Rectangle;
+import by.bsu.shapes.action.entity.Triangle;
 import static java.lang.Math.*;
 public class ShapeMain{
 	public static void main(String[] args){

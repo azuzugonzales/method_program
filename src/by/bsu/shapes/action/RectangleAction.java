@@ -1,7 +1,7 @@
 package by.bsu.shapes.action;
 
 
-import by.bsu.shapes.entity.Rectangle;
+import by.bsu.shapes.action.entity.Rectangle;
 
 public class RectangleAction implements IShapeAction<Rectangle>{
 	@Override

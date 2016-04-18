@@ -1,6 +1,6 @@
 package by.bsu.shapes.action;
 
-import by.bsu.shapes.entity.Triangle;
+import by.bsu.shapes.action.entity.Triangle;
 
 public class TriangleAction implements IShapeAction<Triangle>{
 	@Override

@@ -1,4 +1,4 @@
-package by.bsu.shapes.entity;
+package by.bsu.shapes.action.entity;
 
 public abstract class AbstractShape{
 	private double a;
