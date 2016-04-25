@@ -1,15 +1,21 @@
 package by.bsu.fund.entity;
+import by.bsu.fund.exceptions.CoinLogicException;
 public class Coin {
 	private double diameter;
-	public Coin(double diameter){
-		super();
-		initDiameter(diameter);
+	private double weight;
+	public double getDiameter(){
+		return diameter;
 	}
-	public final void initDiameter(double value){
-		if(value > 0) {
-			diameter = value;
-		} else {
-			System.out.println("Negative diameter!");
+	public void setDiameter(double value) throws CoinLogicException{
+		if(value <= 0){
+			throw new CoinLogicException("diameter is incorrect");
 		}
+		diameter = value;
+	}
+	public double getWeight(){
+		return weight;
+	}
+	public void setWeight(double value){
+		weight = value;
 	}
 }

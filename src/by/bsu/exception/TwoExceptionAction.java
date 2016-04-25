@@ -11,6 +11,6 @@ public class TwoExceptionAction{
 		} catch(ArrayIndexOutOfBoundsException e){
 			System.err.println("out of bound: " + e);
 		}
-		system.out.println("after try-catch");
+		System.out.println("after try-catch");
 	}
 }

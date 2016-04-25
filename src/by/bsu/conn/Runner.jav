@@ -5,7 +5,7 @@ public class Runner{
 		try{
 			Connector.loadResource(f);
 		} catch(IllegalArgumentException e){
-			Syste.err.print("unchecked-exception handling is a method: " + e);
+			System.err.print("unchecked-exception handling is a method: " + e);
 		}
 	}
 }
