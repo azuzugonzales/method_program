@@ -1,0 +1,5 @@
+File obFile = new File("\\com\\file.txt");
+File obDir = new File("c:/jdk/src/java/io");
+File obFile1 = new File(obDir, "File.java");
+File obFile2 = new File("c:\\com", "file.txt");
+File obFile3 = new File(new URI("Internet-address"));
