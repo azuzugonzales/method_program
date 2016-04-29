@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import by.bsu.collection.Item;
-
 public class SortItemRunner{
 	
 	public static void main(String[] args){

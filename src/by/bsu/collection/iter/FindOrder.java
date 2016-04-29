@@ -1,4 +1,5 @@
-package by.bsu.collection;
+package by.bsu.collection.iter;
+
 import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;

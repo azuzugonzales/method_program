@@ -1,4 +1,4 @@
-package by.bsu.collection;
+package by.bsu.collection.lists;
 import java.util.ArrayList;
 public class UncheckCheckRun{
 	public static void main(String[] args){
