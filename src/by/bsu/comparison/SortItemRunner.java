@@ -2,7 +2,6 @@ package by.bsu.comparison;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class SortItemRunner{
 	
@@ -17,14 +16,17 @@ public class SortItemRunner{
 				add(new Item(63220, 14.9f, "Tie"));
 			}
 		};
-		//Comparator<Item> comp = new Comparator<Item>(){
-		Item.IdComparator comp = new Item.IdComparator(){
-			public int compare(Item one, Item two){
-				return Double.compare(two.getPrice() - one.getPrice());
-			}
-			//public boolean equals(Object ob);
-		};
-		Collections.sort(p,comp);
-		System.out.println(p);
+
+		System.out.println("=== sort by price ===\n");
+
+		Collections.sort(p, Item.comp1);
+		for(Item prices : p)
+		System.out.println(prices);
+
+		System.out.println("=== sort by price back ===\n");
+
+		Collections.sort(p, Item.comp2);
+		for(Item prices : p)
+			System.out.println(prices);
 	}
 }
