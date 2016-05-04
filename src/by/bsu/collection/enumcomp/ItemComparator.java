@@ -1,19 +1,27 @@
-package by.bsu.collection;
+package by.bsu.collection.enumcomp;
+
+import java.util.Collection;
 import java.util.Comparator;
+
 public class ItemComparator implements Comparator<Item>{
+
 	private ItemEnum sortingIndex;
+
 	public ItemComparator(ItemEnum sortingIndex){
 		setSortingIndex(sortingIndex);
 	}
+
 	public final void setSortingIndex(ItemEnum sortingIndex){
 		if(sortingIndex == null){
 			throw new IllegalArgumentException();
 		}
 		this.sortingIndex = sortingIndex;
 	}
+
 	public ItemEnum getSortingIndex(){
 		return sortingIndex;
 	}
+
 	@Override
 	public int compare(Item one, Item two){
 		switch(sortingIndex){
