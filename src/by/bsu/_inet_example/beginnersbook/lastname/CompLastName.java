@@ -1,6 +1,4 @@
-package by.bsu._inet_example.comparables.lastname;
-
-import java.util.TreeSet;
+package by.bsu._inet_example.beginnersbook.lastname;
 
 class CompLastName implements Comparable{
 	

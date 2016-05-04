@@ -1,4 +1,4 @@
-package by.bsu._inet_example.comparables.lastname;
+package by.bsu._inet_example.beginnersbook.lastname;
 
 import java.util.TreeSet;
 
