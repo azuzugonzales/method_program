@@ -1,13 +1,15 @@
 package by.bsu.collection.enumcomp;
 
-import by.bsu.collection.enumcomp.FullItemEnum;
+import by.bsu.collection._itemorder.fullitemenum.FullItemEnum;
+import by.bsu.collection._itemorder.itemenum.ItemEnum;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SortItemEnumRunner {
+public class RunSortItemEnum {
 	
 	public static void main(String[] args){
+
 		ArrayList<FullItemEnum> p = new ArrayList<FullItemEnum>(){
 			{
 				add(new FullItemEnum(52201, 9.75f, "T-Shirt"));
@@ -19,6 +21,10 @@ public class SortItemEnumRunner {
 			}
 		};
 
+
+		Collections.sort(p, new ItemComparator(FullItemEnum.ITEM_ID));
+		for(FullItemEnum prices : p)
+			System.out.println(prices);
 
 
 		/*System.out.println("=== sort by price ===\n");

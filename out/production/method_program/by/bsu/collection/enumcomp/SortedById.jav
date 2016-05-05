@@ -1,7 +1,7 @@
 package by.bsu.collection.enumcomp;
 
 import java.util.Comparator;
-import by.bsu.collection.enumcomp.ItemEnum;
+import by.bsu.collection._itemorder.itemenum.ItemEnum;
 
 class SortedById implements Comparator<ItemEnum>{
 
