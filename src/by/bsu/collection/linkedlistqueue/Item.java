@@ -32,9 +32,9 @@ public class Item{
 		}
 	}
 		
-	/*public static class PriceComparator implements Comparator<Item>{
+	/*public static class PriceComparator implements Comparator<ItemEnum>{
 		@Override
-		public int compare(Item one, Item two){
+		public int compare(ItemEnum one, ItemEnum two){
 			return Double.compare(two.getPrice() - one.getPrice());
 		}
 	}*/

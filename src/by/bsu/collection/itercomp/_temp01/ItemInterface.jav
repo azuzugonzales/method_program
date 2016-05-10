@@ -8,7 +8,7 @@ public interface ItemInterface {
 }
     /*private float price;
     private String name;
-    public Item(int itemId, float price, String name){
+    public ItemEnum(int itemId, float price, String name){
         this.itemId = itemId;
         this.price = price;
         this.name = name;
@@ -24,6 +24,6 @@ public interface ItemInterface {
     }*/
     /*@Override
     public String toString(){
-        return "Item [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
+        return "ItemEnum [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
     }*/
 

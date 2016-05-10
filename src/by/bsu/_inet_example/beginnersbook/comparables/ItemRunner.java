@@ -6,7 +6,7 @@ public class ItemRunner {
 
 	public static void main(String[] args) {
 
-		// Create array of four Item objects.
+		// Create array of four ItemEnum objects.
 		Item[] items = new Item[4];
 		items[0] = new Item(100);
 		items[1] = new Item(0);

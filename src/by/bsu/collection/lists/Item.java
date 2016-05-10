@@ -19,6 +19,6 @@ public class Item{
 	}
 	@Override
 	public String toString(){
-		return "Item [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
+		return "ItemEnum [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
 	}
 }

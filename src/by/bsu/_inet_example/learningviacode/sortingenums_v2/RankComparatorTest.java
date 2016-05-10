@@ -9,7 +9,8 @@ public class RankComparatorTest{
 	public static void main(String[] args){
 		
 		final List<Rank> rankList = Arrays.asList(Rank.values());
-		
+
+
 		TreeSet<Rank> ranks = new TreeSet<Rank>();
 		ranks.addAll(rankList);
 		
@@ -20,6 +21,7 @@ public class RankComparatorTest{
 		}
 		
 		ranks = new TreeSet<Rank>(new RankComparator());
+
 		ranks.addAll(rankList);
 		
 		System.out.println("--- Using the business rules based sorting ---");

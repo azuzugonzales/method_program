@@ -2,7 +2,8 @@ package by.bsu.collection._itemorder;
 
 public class Item{
 	private int itemId;
-	private float price;
+	//private float price;
+	private double price;
 	private String name;
 	public Item(int itemId, float price, String name){
 		this.itemId = itemId;
@@ -12,7 +13,7 @@ public class Item{
 	public int getItemId(){
 		return itemId;
 	}
-	public float getPrice(){
+	public double getPrice(){
 		return price;
 	}
 	public String getName(){
@@ -20,6 +21,6 @@ public class Item{
 	}
 	@Override
 	public String toString(){
-		return "Item [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
+		return "ItemEnum [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
 	}
 }

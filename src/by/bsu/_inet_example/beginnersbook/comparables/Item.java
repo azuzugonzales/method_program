@@ -9,7 +9,7 @@ class Item implements Comparable<Item>{
 
 	// Sort straight
 	/*@Override
-	public int compareTo(Item item) {
+	public int compareTo(ItemEnum item) {
 		return Integer.compare(this.value, item.value);
 	}*/
 
