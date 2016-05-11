@@ -1,7 +1,6 @@
-package by.bsu.collection.itercomp;
+package by.bsu.collection.itercomp.itercompwork;
 
 public class Item {
-
     /*private Integer id;
     private Date timestamp;*/
 
@@ -20,4 +19,8 @@ public class Item {
     public int getId() {
         return id;
     }
+
+    /*public Integer getId(){
+        return id;
+    }*/
 }
