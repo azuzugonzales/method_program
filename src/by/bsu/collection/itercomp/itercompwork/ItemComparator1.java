@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class ItemComparator implements Comparator<Item> {
+public class ItemComparator1 implements Comparator<Item> {
 
     public enum Field {
-        ID, NAME /*TIMESTAMP*/
+        ID, NAME, /*TIMESTAMP*/
     }
 
     private Field field;
 
-    public ItemComparator(Field field) {
+    public ItemComparator1(Field field) {
         this.field = field;
     }
 
@@ -25,10 +25,11 @@ public class ItemComparator implements Comparator<Item> {
                 comparison = one.getName().compareTo(two.getName());
             case ID:
                 comparison = one.getId() - two.getId();
+            /*case TIMESTAMP:
+                comparison = one.getTimestamp().compareTo(two.getTimestamp());*/
         }
         return comparison;
     }
-
 
     public static void main(String[] args) {
         ArrayList<Item> itemList = new ArrayList<Item>(){
@@ -40,7 +41,6 @@ public class ItemComparator implements Comparator<Item> {
             }
 
         };
-
 
         System.out.println("=== sort by ID ===");
         Collections.sort(itemList, new Comparator<Item>() {
@@ -66,11 +66,6 @@ public class ItemComparator implements Comparator<Item> {
             System.out.println(item.getName());
         }
 
-
-
-
-
-
         //System.out.println(new ArrayList<Item>());
 
         /*  WORK  Comparator<Item> idComp = new Comparator<Item>() {
@@ -80,13 +75,7 @@ public class ItemComparator implements Comparator<Item> {
             }
         };*/
 
-
-
-
-
-
-
-        /*Collections.sort(p, new ItemComparator(Field.ID){
+        /*Collections.sort(p, new ItemComparator1(Field.ID){
             for(Item item : p){
 
             }
@@ -95,7 +84,7 @@ public class ItemComparator implements Comparator<Item> {
     }
 }
 
-       //Collections.sort(itemList, new ItemComparator());
+       //Collections.sort(itemList, new ItemComparator1());
 
 
 

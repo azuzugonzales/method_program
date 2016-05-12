@@ -1,11 +1,14 @@
-package by.bsu.collection.itercomp;
+package by.bsu.collection.itercomp.itercompwork1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
+
+        final Date timestamp = new Date();
 
         ArrayList<Item> itemList = new ArrayList<Item>(){
             {
@@ -26,7 +29,8 @@ public class Main {
         });
 
         for(Item item : itemList){
-            System.out.println(item.getId());
+            System.out.println(item.getId() + " time " + timestamp);
+
         }
     }
 }

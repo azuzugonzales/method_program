@@ -1,17 +1,16 @@
-package by.bsu.collection.itercomp.itercompwork;
+package by.bsu.collection.itercomp.itercompwork1;
 
 public class Item {
+
     /*private Integer id;
     private Date timestamp;*/
 
     private int id;
     private String name;
-    /*private Date timestamp;*/
 
     public Item(int id, String name) {
         this.id = id;
         this.name = name;
-        /*this.timestamp = timestamp;*/
     }
 
     public String getName() {
@@ -21,12 +20,4 @@ public class Item {
     public int getId() {
         return id;
     }
-
-    /*public Date getTimestamp(){
-        return timestamp;
-    }*/
-
-    /*public Integer getId(){
-        return id;
-    }*/
 }

@@ -2,19 +2,19 @@ package by.bsu.collection;
 import java.util.Comparator;
 
 public class Item{
-	private int itemId;
+	private int id;
 	private float price;
 	private String name;
 	
-	public Item(int itemId, float price, String name){
+	public Item(int id, float price, String name){
 		super();
-		this.itemId = itemId;
+		this.id = id;
 		this.price = price;
 		this.name = name;
 	}
 	
 	public int getItemId(){
-		return itemId;
+		return id;
 	}
 	
 	public float getPrice(){

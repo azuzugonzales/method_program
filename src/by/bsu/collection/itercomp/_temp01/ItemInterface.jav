@@ -3,18 +3,18 @@ package by.bsu.collection.enumcomp;
 
 public interface ItemInterface {
 
-    int itemId(int a, int b);
+    int id(int a, int b);
 
 }
     /*private float price;
     private String name;
-    public ItemEnum(int itemId, float price, String name){
-        this.itemId = itemId;
+    public ItemEnum(int id, float price, String name){
+        this.id = id;
         this.price = price;
         this.name = name;
     }
     public int getItemId(){
-        return itemId;
+        return id;
     }
     public float getPrice(){
         return price;
@@ -24,6 +24,6 @@ public interface ItemInterface {
     }*/
     /*@Override
     public String toString(){
-        return "ItemEnum [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
+        return "ItemEnum [id = " + id + ", price = " + price + ", name = " + name + "]\n";
     }*/
 

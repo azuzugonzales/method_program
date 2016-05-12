@@ -3,17 +3,17 @@ package by.bsu.collection.itercomp._temp02;
 import java.util.Comparator;
 
 public class Item {
-    private int itemId;
+    private int id;
     private float price;
     //private double price;
     private String name;
-    public Item(int itemId, float price, String name){
-        this.itemId = itemId;
+    public Item(int id, float price, String name){
+        this.id = id;
         this.price = price;
         this.name = name;
     }
     public int getItemId(){
-        return itemId;
+        return id;
     }
     public double getPrice(){
         return price;

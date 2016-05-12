@@ -1,15 +1,15 @@
 package by.bsu.collection;
 public class Item{
-	private int itemId;
+	private int id;
 	private float price;
 	private String name;
-	public Item(int itemId, float price, String name){
-		this.itemId = itemId;
+	public Item(int id, float price, String name){
+		this.id = id;
 		this.price = price;
 		this.name = name;
 	}
 	public int getItemId(){
-		return itemId;
+		return id;
 	}
 	public float getPrice(){
 		return price;
@@ -19,6 +19,6 @@ public class Item{
 	}
 	@Override
 	public String toString(){
-		return "Item [itemId = " + itemId + ", price = " + price + ", name = " + name + "]\n";
+		return "Item [id = " + id + ", price = " + price + ", name = " + name + "]\n";
 	}
 }

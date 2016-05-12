@@ -3,10 +3,10 @@ package by.bsu.collection.itercomp._temp02;
 public enum ItemEnum {
     ITEM_ID, PRICE, NAME;
 
-    private int itemId;
+    private int id;
 
     public int getItemId() {
-        return itemId;
+        return id;
     }
 
 
