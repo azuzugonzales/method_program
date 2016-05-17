@@ -14,6 +14,7 @@ public class OrderQueueAction {
 		};
 		Queue<Order> queueA = orders;
 		queueA.offer(new Order(222, 9.7f));
+		queueA.offer(new Order(444, 9.5f));
 		orderProcessing(queueA);
 		if(queueA.isEmpty()){
 			System.out.println("Queue of Orders is empty");
@@ -24,7 +25,7 @@ public class OrderQueueAction {
 		Order ob = null;
 		// change while -> do{} while
 		while((ob = queue.poll()) != null){
-			System.out.println("Order #" + ob.getIdOrder() + " is processing");
+			System.out.println("Order #" + ob.getOrderId() + " is processing");
 			// verifying and processing
 		}
 	}

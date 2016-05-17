@@ -2,6 +2,7 @@ package by.bsu.collection.itemgeneric;
 public class Item{
 	private int id;
 	private float price;
+	//private double price;
 	private String name;
 	public Item(int id, float price, String name){
 		this.id = id;
@@ -11,9 +12,11 @@ public class Item{
 	public int getItemId(){
 		return id;
 	}
+
 	public float getPrice(){
 		return price;
 	}
+
 	public String getName(){
 		return name;
 	}
