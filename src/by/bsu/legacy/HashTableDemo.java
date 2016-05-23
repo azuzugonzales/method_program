@@ -16,8 +16,6 @@ public class HashTableDemo {
                     this.put(i, atan(i));
                 }
             }
-
-
         };
 
         Enumeration<Integer> ek = ht.keys();
