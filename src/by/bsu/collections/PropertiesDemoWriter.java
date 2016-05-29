@@ -9,9 +9,13 @@ public class PropertiesDemoWriter{
 		Properties props = new Properties();
 		try{
 			props.setProperty("db.driver", "com.mysql.jdbc.Driver");
+
 			// props.setProperty("db.url", "jdbc:mysql://127.0.0.1:3306/testphones");
+
 			props.setProperty("db.user", "root");
+
 			props.setProperty("db.password", "pass");
+
 			props.setProperty("db.poolsize", "5");
 
 			props.store(new FileWriter("prop" + File.separator + "database.properties"), null);
