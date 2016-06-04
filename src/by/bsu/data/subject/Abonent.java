@@ -1,3 +1,4 @@
+/*
 package by.bsu.data.subject;
 
 public class Abonent extends Entity{
@@ -33,4 +34,4 @@ public class Abonent extends Entity{
 	public String toString(){
 		return "Abonent [id = " + id + ", phone= " + phone + ", lastname= " + lastname + "]"; 
 	}
-}
+}*/

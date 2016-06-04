@@ -1,3 +1,4 @@
+/*
 package by.bsu.data.main;
 
 import by.bsu.data.subject.Abonent;
@@ -67,3 +68,4 @@ public class SimpleJDBCRunner{
 		}
 	}
 }
+*/
