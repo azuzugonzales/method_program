@@ -21,7 +21,7 @@ public class MySQLAccess {
             // Setup the connection with the DB
             connect = DriverManager
                     .getConnection("jdbc:mysql://localhost/feedback?"
-                            + "user=sqluser&password=sqluserpw");
+                            + "user=root&password=2002138");
 
             // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
@@ -32,8 +32,8 @@ public class MySQLAccess {
 
             // PreparedStatements can use variables and are more efficient
             preparedStatement = connect
-                    .prepareStatement("insert into  feedback.comments values (default, ?, ?, ?, ? , ?, ?)");
-            // "myuser, webpage, datum, summery, COMMENTS from feedback.comments");
+                    .prepareStatement("insert into  feedback.comments values (default, ?, ?, ?, ?, ?, ?)");
+            // "myuser, webpage, datum, summary, COMMENTS from feedback.comments");
             // Parameters start with 1
             preparedStatement.setString(1, "Test");
             preparedStatement.setString(2, "TestEmail");
@@ -84,7 +84,7 @@ public class MySQLAccess {
             // It is possible to get the columns via name
             // also possible to get the columns via the column number
             // which starts at 1
-            // e.g. resultSet.getSTring(2);
+            // e.g. resultSet.getString(2);
             String user = resultSet.getString("myuser");
             String website = resultSet.getString("webpage");
             String summary = resultSet.getString("summary");
