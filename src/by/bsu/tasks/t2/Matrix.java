@@ -14,7 +14,10 @@ class Matrix {
         Cost[i][j] = weight;
     }
 
-    /* Returns 0 if I and J are the same, a large number of returns if there is no connection between the tops of the ribs or weight */
+    /* Returns 0 if I and J are the same,
+     * a large number of returns if there is no connection
+     * between the tops of the ribs or weight */
+
     public int getCost(int i, int j) {
 /* [0, 0, 1, 3, 0] 
  * [0, 1, 0, 1, 4] 

@@ -1,6 +1,7 @@
 package by.bsu.tasks.maintask.t1;
 
 public class RunBracesCalculator {
+
     public static void main(String[] args) {
 
         BracesCalculator calc = new BracesCalculator();
