@@ -1,3 +1,4 @@
+/*
 package by.bsu.tasks.t1;
 
 public class Main {
@@ -11,3 +12,4 @@ public class Main {
         System.out.println("Number of valid braces sequences = " + numValidBracesSequences);
     }
 }
+*/

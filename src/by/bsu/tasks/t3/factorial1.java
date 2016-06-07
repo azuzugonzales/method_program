@@ -1,3 +1,4 @@
+/*
 package by.bsu.tasks.t3;
 
 import java.math.BigInteger;
@@ -21,3 +22,4 @@ public class factorial1 {
     }
 
 }
+*/
