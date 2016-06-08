@@ -1,3 +1,4 @@
+/*
 package by.bsu.tasks.t3;
 
 import org.junit.Test;
@@ -13,3 +14,4 @@ public class FactorialDigitSumTest {
     private void assertEquals(int i, int calculate) {
     }
 }
+*/

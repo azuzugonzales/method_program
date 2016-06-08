@@ -1,6 +1,5 @@
 package by.bsu.tasks.t2;
 
-
 class Matrix {
     private int[][] Cost;// An array that contains the value of the ribs
 
