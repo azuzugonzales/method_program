@@ -1,16 +1,21 @@
 package by.bsu.tasks.maintask.t2;
 
 class Matrix {
+    // declaration array
     private int[][] Cost;
 
+    // constructor
     public Matrix(int vertices) {
+        // initialisation fields
         Cost = new int[vertices][vertices];
     }
 
+    // method establishes a connection between neighbors
     public void setEdge(int i, int j, int weight) {
         Cost[i][j] = weight;
     }
 
+    // method returns 0 if I and J are the same
     public int getCost(int i, int j) {
         if (i == j) {
             return 0;
@@ -22,6 +27,7 @@ class Matrix {
         return Cost[i][j];
     }
 
+    // method return the index of the smallest element of distances
     protected int cheapest(Integer[] result, boolean[] visited) {
         int best = -1;
         for (int i = 0; i < Cost.length; i++) {
@@ -32,6 +38,7 @@ class Matrix {
         return best;
     }
 
+    // method return an array of the distances
     public Integer[] distancesFrom(int source) {
         Integer[] result = new Integer[Cost.length];
         java.util.Arrays.fill(result, 10001);

@@ -10,17 +10,14 @@ public class BracesCalculator {
     private List<Integer> arrayList;
     private int countBraces;
 
+    // constructor
     public BracesCalculator() {
         // initialisation fields
         arrayList = new ArrayList<>();
         readFromKeyboard();
     }
 
-    /**
-     * Method  calculate a count of valid braces sequences.
-     * For implementation task use the Catalan's recurrence relation.
-     */
-
+    // method  calculate a count of valid braces sequences
     public int calculateCountOfBraces() {
         // for countBraces == 0 valid braces sequence only one
         if (countBraces == 0) {
@@ -40,16 +37,7 @@ public class BracesCalculator {
         return arrayList.get(countBraces);
     }
 
-    /**
-     * Method reading data from keyboard.
-     * User must entered only a positive integer number.
-     * <p/>
-     * If line from keyboard isn't integer number. User get a warning massage.
-     * If line from keyboard is number, but this is a negative number. User get a warning massage.
-     * <p/>
-     * When user entered the correct data, method save int positive number for further use
-     */
-
+    // method reading data from keyboard
     private void readFromKeyboard() {
         int enteredNumber;
         Scanner scanner = new Scanner(System.in);

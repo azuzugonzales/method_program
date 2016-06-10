@@ -1,4 +1,3 @@
-/*
 package by.bsu.com.data.subject;
 
 public class Abonent extends Entity{
@@ -8,7 +7,7 @@ public class Abonent extends Entity{
 	public Abonent(){
 	}
 	
-	public Abonent(int phone, String lastname){
+	public Abonent(int id, int phone, String lastname){
 		super(id);
 		this.phone = phone;
 		this.lastname = lastname;		
@@ -34,4 +33,4 @@ public class Abonent extends Entity{
 	public String toString(){
 		return "Abonent [id = " + id + ", phone= " + phone + ", lastname= " + lastname + "]"; 
 	}
-}*/
+}

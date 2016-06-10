@@ -1,4 +1,3 @@
-/*
 package by.bsu.com.data.main;
 
 import by.bsu.com.data.subject.Abonent;
@@ -8,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 public class SimpleJDBCRunner{
-	public static void main(String[] args){
+	public static void main(String[] args) throws ClassNotFoundException {
 		String url = "jdbc:mysql://localhost:3306/testphones";
 		Properties prop = new Properties();
 		prop.put("user", "root");
@@ -17,9 +16,11 @@ public class SimpleJDBCRunner{
 		prop.put("characterEncoding", "UTF-8");
 		prop.put("useUnicode", "true");
 		Connection cn = null;
-		DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-		try{	// 1 block
-			cn = DriverManager.getConnection(new com.mysql.jdbc.Driver());
+        //DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+		Class.forName("com.mysql.jdbc.Driver");
+        try{	// 1 block
+			cn = DriverManager.getConnection("jdbc:mysql://localhost/testphones?"
+                    + "user=root&password=2002138");
 			Statement st = null;
 			try{	// 2 block
 				st = cn.createStatement();
@@ -68,4 +69,3 @@ public class SimpleJDBCRunner{
 		}
 	}
 }
-*/
