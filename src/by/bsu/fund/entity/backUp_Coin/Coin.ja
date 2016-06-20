@@ -1,4 +1,4 @@
-package by.bsu.com.fund.entity;
+package by.bsu.fund.entity;
 public class Coin {
 	private double diameter;
 	public Coin(double diameter){

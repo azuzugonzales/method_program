@@ -1,7 +1,7 @@
-package by.bsu.com.proj.run;
-import by.bsu.com.proj.accountlogic.AccountOperationManager;
-import by.bsu.com.proj.accountlogic.AccountOperationManagerImpl;
-import by.bsu.com.proj.annotation.logic.SecurityFactory;
+package by.bsu.proj.run;
+import by.bsu.proj.accountlogic.AccountOperationManager;
+import by.bsu.proj.accountlogic.AccountOperationManagerImpl;
+import by.bsu.proj.annotation.logic.SecurityFactory;
 public class AnnoRunner{
 	public static void main(String[] args){
 		AccountOperationManager account = new AccountOperationManagerImpl();

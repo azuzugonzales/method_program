@@ -1,4 +1,4 @@
-package by.bsu.com.point;
+package by.bsu.point;
 public class Point2D extends Point1D {
 	private int y;
 	public Point2D(int x, int y){

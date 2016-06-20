@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.dotnetperls.integercompare;
+package by.bsu._inet_example.dotnetperls.integercompare;
 
 public class IntegerCompareRun {
     public static void main(String[] args) {

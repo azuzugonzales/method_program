@@ -1,4 +1,4 @@
-package by.bsu.com.collection.enumcomp;
+package by.bsu.collection.enumcomp;
 
 public enum ItemEnum {
     ITEM_ID(true), PRICE(false), NAME(true);

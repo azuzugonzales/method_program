@@ -1,7 +1,8 @@
-package by.bsu.com.proj.annotation.logic;
+package by.bsu.proj.annotation.logic;
+
+import by.bsu.proj.annotation.SecurityLevelEnum;
 
 import java.lang.reflect.Method;
-import by.bsu.com.proj.annotation.SecurityLevelEnum;
 public class SecurityLogic{
 	public void onInvoke(SecurityLevelEnum level, Method method, Object[] args){
 		StringBuilder argsString = new StringBuilder();

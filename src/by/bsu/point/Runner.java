@@ -1,4 +1,4 @@
-package by.bsu.com.point;
+package by.bsu.point;
 public class Runner{
 	public static void main(String[] args){
 		PointReport d = new PointReport();

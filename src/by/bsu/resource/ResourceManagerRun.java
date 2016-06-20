@@ -1,5 +1,5 @@
-package by.bsu.com.resource;
-//import by.bsu.com.resource.ResourceManager;
+package by.bsu.resource;
+//import by.bsu.resource.ResourceManager;
 import java.util.Locale;
 public class ResourceManagerRun{
 	public static void main(String[] args){

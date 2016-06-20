@@ -1,4 +1,4 @@
-package by.bsu.com.collection._itemorder.itemenum;
+package by.bsu.collection._itemorder.itemenum;
 
 public enum ItemEnum {
     ITEM_ID, PRICE, NAME

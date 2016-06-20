@@ -1,8 +1,10 @@
-package by.bsu.com.auction;
+package by.bsu.auction;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.concurrent.CyclicBarrier;
+
 public class Auction{
 	private ArrayList<Bid> bids;
 	private CyclicBarrier barrier;

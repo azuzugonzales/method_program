@@ -1,4 +1,4 @@
-package by.bsu.com.future;
+package by.bsu.future;
 import java.util.Random;
 import java.util.concurrent.Callable;
 public class CalcCallable implements Callable<Number>{

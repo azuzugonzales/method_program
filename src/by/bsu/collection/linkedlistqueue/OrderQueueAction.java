@@ -1,4 +1,4 @@
-package by.bsu.com.collection.linkedlistqueue;
+package by.bsu.collection.linkedlistqueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

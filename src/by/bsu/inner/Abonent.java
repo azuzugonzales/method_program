@@ -1,4 +1,4 @@
-package by.bsu.com.inner;
+package by.bsu.inner;
 
 public class Abonent {
     private long id;

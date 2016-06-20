@@ -1,4 +1,4 @@
-package by.bsu.com.inner.study;
+package by.bsu.inner.study;
 public class Teacher extends AbstractTeacher{
 	public Teacher(int id){
 		super(id);

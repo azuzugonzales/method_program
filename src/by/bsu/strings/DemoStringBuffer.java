@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class DemoStringBuffer{
 	public static void main(String[] args){
 		StringBuffer sb = new StringBuffer();

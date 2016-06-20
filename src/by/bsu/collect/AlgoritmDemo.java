@@ -1,4 +1,4 @@
-package by.bsu.com.collect;
+package by.bsu.collect;
 
 import java.util.ArrayList;
 import java.util.Collections;

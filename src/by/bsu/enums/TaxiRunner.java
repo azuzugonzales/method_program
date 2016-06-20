@@ -1,4 +1,4 @@
-package by.bsu.com.enums;
+package by.bsu.enums;
 public class TaxiRunner {
 	public static void main(String[] args) {
 		TaxiStation ts = TaxiStation.valueOf(TaxiStation.class, "Volvo".toUpperCase());

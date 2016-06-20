@@ -1,4 +1,4 @@
-package by.bsu.com.exchanger;
+package by.bsu.exchanger;
 public class Item{
 	private Integer id;
 	private Integer number;

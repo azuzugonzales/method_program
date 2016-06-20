@@ -1,4 +1,4 @@
-package by.bsu.com.dumb;
+package by.bsu.dumb;
 class Dumb extends Object{
 	{ this.id = 6; }
 	int id;

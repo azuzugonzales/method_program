@@ -1,4 +1,4 @@
-package by.bsu.com.synch;
+package by.bsu.synch;
 
 import java.io.FileWriter;
 import java.io.IOException;

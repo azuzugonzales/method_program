@@ -1,4 +1,4 @@
-package by.bsu.com.entity;
+package by.bsu.entity;
 
 public class CloneRunner{
 	private static void mutation(Student p){

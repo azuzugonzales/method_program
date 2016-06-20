@@ -1,4 +1,4 @@
-package by.bsu.com.inner.study;
+package by.bsu.inner.study;
 public abstract class AbstractTeacher{
 	private int id;
 	public AbstractTeacher(int id){

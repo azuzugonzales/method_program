@@ -1,4 +1,4 @@
-package by.bsu.com.stat;
+package by.bsu.stat;
 import static java.lang.Math.*;
 public class ImportDemoLux{
 	public static void main(String[] args){

@@ -1,4 +1,4 @@
-package by.bsu.com.action.entity;
+package by.bsu.action.entity;
 
 public class Rectangle extends AbstractShape{
 	private double b;

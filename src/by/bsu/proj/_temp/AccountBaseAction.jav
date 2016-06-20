@@ -1,4 +1,4 @@
-package by.bsu.com.proj.accountlogic;
+package by.bsu.proj.accountlogic;
 public interface AcountBaseAction{
 	boolean openAccount();
 	boolean closeAccount();

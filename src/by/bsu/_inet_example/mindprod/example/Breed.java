@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.mindprod.example;
+package by.bsu._inet_example.mindprod.example;
 
 
 /*

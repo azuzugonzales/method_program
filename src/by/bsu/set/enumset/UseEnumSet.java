@@ -1,4 +1,4 @@
-package by.bsu.com.set.enumset;
+package by.bsu.set.enumset;
 
 import java.util.EnumSet;
 

@@ -1,4 +1,4 @@
-package by.bsu.com.future.executor;
+package by.bsu.future.executor;
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 public class BaseCallable implements Callable<String>{

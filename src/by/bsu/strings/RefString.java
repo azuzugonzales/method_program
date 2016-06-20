@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 
 public class RefString{
 	public static void changeStr(String s){

@@ -1,5 +1,5 @@
-package by.bsu.com.resource.pool;
-import by.bsu.com.resource.exception.ResourceException;
+package by.bsu.resource.pool;
+import by.bsu.resource.exception.ResourceException;
 public class Client extends Thread{
 	private boolean reading = false;
 	private ChannelPool<AudioChannel> pool;

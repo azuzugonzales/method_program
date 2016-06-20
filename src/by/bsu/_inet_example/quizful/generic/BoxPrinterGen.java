@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.quizful.generic;
+package by.bsu._inet_example.quizful.generic;
 
 public class BoxPrinterGen<T> {
     private T val;

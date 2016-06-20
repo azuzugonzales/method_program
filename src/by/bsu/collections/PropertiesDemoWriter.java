@@ -1,4 +1,4 @@
-package by.bsu.com.collections;
+package by.bsu.collections;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

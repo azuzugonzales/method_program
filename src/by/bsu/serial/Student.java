@@ -1,4 +1,4 @@
-package by.bsu.com.serial;
+package by.bsu.serial;
 import java.io.Serializable;
 public class Student implements Serializable{
 	protected static String faculty;

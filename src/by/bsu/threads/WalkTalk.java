@@ -1,4 +1,4 @@
-package by.bsu.com.threads;
+package by.bsu.threads;
 public class WalkTalk{
 	public static void main(String[] args){
 		// new objects threads

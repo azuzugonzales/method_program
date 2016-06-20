@@ -1,4 +1,4 @@
-package by.bsu.com.regex;
+package by.bsu.regex;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.Arrays;

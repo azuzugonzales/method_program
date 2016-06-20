@@ -1,4 +1,4 @@
-package by.bsu.com.market;
+package by.bsu.market;
 import java.util.concurrent.atomic.AtomicLong;
 public class AtomicDemo{
 	private static final int NUMBER_BROKERS = 30;

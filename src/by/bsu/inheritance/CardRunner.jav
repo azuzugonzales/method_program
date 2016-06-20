@@ -1,4 +1,4 @@
-package by.bsu.com.inheritance;
+package by.bsu.inheritance;
 public class CardRunner{
 	public static void main(String[] args){
 		CardAction dc1 = new CardAction();

@@ -1,7 +1,7 @@
-package by.bsu.com.action;
+package by.bsu.action;
 
-import by.bsu.com.action.entity.Rectangle;
-import by.bsu.com.action.entity.Triangle;
+import by.bsu.action.entity.Rectangle;
+import by.bsu.action.entity.Triangle;
 import static java.lang.Math.*;
 public class ShapeMain{
 	public static void main(String[] args){

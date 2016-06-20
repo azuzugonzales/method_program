@@ -1,4 +1,4 @@
-package by.bsu.com.priority;
+package by.bsu.priority;
 public class PriorityRunner{
 	public static void main(String[] args) {
 		PriorThread min = new PriorThread("Min");

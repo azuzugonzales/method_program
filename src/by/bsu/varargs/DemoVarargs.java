@@ -1,4 +1,4 @@
-package by.bsu.com.varargs;
+package by.bsu.varargs;
 public class DemoVarargs{
 	public static int defineArgCount(Integer... args) {
 		if (args.length == 0) {

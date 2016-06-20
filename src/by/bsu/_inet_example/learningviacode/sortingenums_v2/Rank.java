@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.learningviacode.sortingenums_v2;
+package by.bsu._inet_example.learningviacode.sortingenums_v2;
 
 enum Rank{
 	RANK_1(3), RANK_2(2), RANK_3(1);

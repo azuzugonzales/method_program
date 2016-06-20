@@ -1,4 +1,4 @@
-package by.bsu.com.market;
+package by.bsu.market;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;
 public class Market extends Thread{

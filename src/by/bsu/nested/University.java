@@ -1,4 +1,4 @@
-package by.bsu.com.nested;
+package by.bsu.nested;
 public interface University{
 	int NUMBER_FACULTY = 20;
 	void create();

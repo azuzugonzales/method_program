@@ -1,4 +1,5 @@
-package by.bsu.com.data.subject;
+package by.bsu.data.subject;
+
 import java.io.Serializable;
 public abstract class Entity implements Serializable, Cloneable{
 	protected int id;

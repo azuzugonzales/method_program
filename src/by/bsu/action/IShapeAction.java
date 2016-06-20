@@ -1,6 +1,6 @@
-package by.bsu.com.action;
+package by.bsu.action;
 
-import by.bsu.com.action.entity.AbstractShape;
+import by.bsu.action.entity.AbstractShape;
 
 public interface IShapeAction <T extends AbstractShape>{
 	double computeSquare(T shape);

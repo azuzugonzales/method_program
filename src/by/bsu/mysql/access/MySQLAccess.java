@@ -1,4 +1,4 @@
-package by.bsu.com.mysql.access;
+package by.bsu.mysql.access;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

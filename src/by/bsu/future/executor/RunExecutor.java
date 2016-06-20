@@ -1,4 +1,4 @@
-package by.bsu.com.future.executor;
+package by.bsu.future.executor;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

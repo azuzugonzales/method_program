@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class EqualsStringBuffer{
 	public static void main(String[] args){
 		StringBuffer sb1 = new StringBuffer();

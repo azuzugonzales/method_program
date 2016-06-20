@@ -1,6 +1,7 @@
-package by.bsu.com.data.main;
+package by.bsu.data.main;
+//package by.bsu.com.data.main;
 
-import by.bsu.com.data.subject.Abonent;
+import by.bsu.data.subject.Abonent;
 
 import java.sql.*;
 import java.util.ArrayList;

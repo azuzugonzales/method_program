@@ -1,2 +1,2 @@
-package by.bsu.com.task.exceptions;
+package by.bsu.task.exceptions;
 public class MatrixException extends Exception {}

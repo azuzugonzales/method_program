@@ -1,9 +1,10 @@
-package by.bsu.com.resource.pool;
+package by.bsu.resource.pool;
+import by.bsu.resource.exception.ResourceException;
+
+import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import java.util.LinkedList;
-import by.bsu.com.resource.exception.ResourceException;
 public class ChannelPool <T>{
 	private final static int POOL_SIZE = 5;
 	private final Semaphore semaphore = new Semaphore(POOL_SIZE, true);

@@ -1,4 +1,4 @@
-package by.bsu.com.phaser;
+package by.bsu.phaser;
 public class Item{
 	private int registrationNumber;
 	public Item(int number){

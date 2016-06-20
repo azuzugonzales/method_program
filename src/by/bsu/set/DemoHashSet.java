@@ -1,4 +1,4 @@
-package by.bsu.com.set;
+package by.bsu.set;
 
 import java.io.File;
 import java.io.FileNotFoundException;

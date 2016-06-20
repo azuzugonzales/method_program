@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.comparables;
+package by.bsu._inet_example.beginnersbook.comparables;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package by.bsu.com.conn;
+package by.bsu.conn;
 public class Runner{
 	public static void main(String[] args){
 		SameResource f = new SameResource();

@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.back;
+package by.bsu._inet_example.beginnersbook.back;
 
 import java.util.TreeSet;
 

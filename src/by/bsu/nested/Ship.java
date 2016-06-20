@@ -1,4 +1,4 @@
-package by.bsu.com.nested;
+package by.bsu.nested;
 public class Ship{
 	private int id;
 	public static class LifeBoat{

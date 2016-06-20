@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.dotnetperls.chararrayssort;
+package by.bsu._inet_example.dotnetperls.chararrayssort;
 
 import java.util.Arrays;
 

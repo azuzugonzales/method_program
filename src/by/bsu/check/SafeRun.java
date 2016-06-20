@@ -1,8 +1,8 @@
 /*
-package by.bsu.com.check;
+package by.bsu.check;
 
-import by.bsu.com.collection._itemorder.Item;
-import by.bsu.com.collection._itemorder.Order;
+import by.bsu.collection._itemorder.Item;
+import by.bsu.collection._itemorder.Order;
 
 import java.util.Collections;
 import java.util.HashSet;

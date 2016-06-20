@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example;
+package by.bsu._inet_example;
 
 // Dialog9Home.java
 // Пример визульного приложения на Java. Копирование из полей ввода

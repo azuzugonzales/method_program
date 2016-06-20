@@ -1,4 +1,4 @@
-package by.bsu.com.io;
+package by.bsu.io;
 import java.io.File;
 import java.util.Date;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package by.bsu.com.future.executor;
+package by.bsu.future.executor;
 import java.util.ArrayDeque;
 public class ProductList{
 	private static ArrayDeque<String> arr = new ArrayDeque<String>(){

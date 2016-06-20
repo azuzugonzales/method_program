@@ -1,4 +1,4 @@
-package by.bsu.com.exchanger;
+package by.bsu.exchanger;
 import java.util.concurrent.Exchanger;
 public class Subject{
 	protected static Exchanger<Item> exchanger = new Exchanger<>();

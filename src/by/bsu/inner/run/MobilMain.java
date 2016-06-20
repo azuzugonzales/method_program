@@ -1,5 +1,5 @@
-package by.bsu.com.inner.run;
-import by.bsu.com.inner.Abonent;
+package by.bsu.inner.run;
+import by.bsu.inner.Abonent;
 public class MobilMain{
 	public static void main(String[] args){
 		Abonent abonent = new Abonent(819002, "Timofey Balashov");

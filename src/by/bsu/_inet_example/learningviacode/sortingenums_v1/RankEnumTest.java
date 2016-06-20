@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.learningviacode.sortingenums_v1;
+package by.bsu._inet_example.learningviacode.sortingenums_v1;
 
 import java.util.Arrays;
 import java.util.TreeSet;

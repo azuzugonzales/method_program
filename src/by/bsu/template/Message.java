@@ -1,4 +1,4 @@
-package by.bsu.com.template;
+package by.bsu.template;
 public class Message<T> {
 	private T value;
 	public Message() {

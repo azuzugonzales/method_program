@@ -1,4 +1,4 @@
-package by.bsu.com.exception;
+package by.bsu.exception;
 public class TwoExceptionAction{
 	public void doAction(){
 		try{

@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.stackoverflow.enumcomparator;
+package by.bsu._inet_example.stackoverflow.enumcomparator;
 
 import java.util.Comparator;
 

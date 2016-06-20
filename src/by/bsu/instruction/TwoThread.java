@@ -1,4 +1,4 @@
-package by.bsu.com.instruction;
+package by.bsu.instruction;
 public class TwoThread{
 	static int counter = 0;
 	public static void main(String[] args){

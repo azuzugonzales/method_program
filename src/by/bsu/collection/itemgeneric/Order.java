@@ -1,4 +1,4 @@
-package by.bsu.com.collection.itemgeneric;
+package by.bsu.collection.itemgeneric;
 
 public class Order{
 	private int orderId;

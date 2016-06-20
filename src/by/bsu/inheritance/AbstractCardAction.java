@@ -1,4 +1,4 @@
-package by.bsu.com.inheritance;
+package by.bsu.inheritance;
 public abstract class AbstractCardAction{
 	private int id;
 	public AbstractCardAction(){

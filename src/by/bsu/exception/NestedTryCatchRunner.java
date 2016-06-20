@@ -1,4 +1,4 @@
-package by.bsu.com.exception;
+package by.bsu.exception;
 public class NestedTryCatchRunner{
 	public void doAction(){
 		try{

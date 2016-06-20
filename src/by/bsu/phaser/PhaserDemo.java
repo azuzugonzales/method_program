@@ -1,4 +1,4 @@
-package by.bsu.com.phaser;
+package by.bsu.phaser;
 
 import java.util.Arrays;
 import java.util.Iterator;

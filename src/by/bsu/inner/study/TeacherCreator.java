@@ -1,4 +1,4 @@
-package by.bsu.com.inner.study;
+package by.bsu.inner.study;
 public class TeacherCreator{
 	public static AbstractTeacher createTeacher(int id){
 		class Rector extends AbstractTeacher{

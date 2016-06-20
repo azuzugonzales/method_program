@@ -1,4 +1,4 @@
-package by.bsu.com.nested;
+package by.bsu.nested;
 public class RunnerShip{
 	public static void main(String[] args){
 		Ship.LifeBoat.down();

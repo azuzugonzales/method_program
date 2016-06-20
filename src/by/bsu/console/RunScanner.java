@@ -1,4 +1,4 @@
-package by.bsu.com.console;
+package by.bsu.console;
 import java.util.Scanner;
 public class RunScanner {
 	public static void main(String[] args) {

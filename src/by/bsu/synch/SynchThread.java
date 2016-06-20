@@ -1,4 +1,4 @@
-package by.bsu.com.synch;
+package by.bsu.synch;
 public class SynchThread extends Thread{
 	private Resource rs;
 	public SynchThread(String name, Resource rs){

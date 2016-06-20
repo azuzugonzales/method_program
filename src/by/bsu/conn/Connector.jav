@@ -1,4 +1,4 @@
-package by.bsu.com.conn;
+package by.bsu.conn;
 public class Connector{
 	public static void loadResource(SameResource f){
 		if(f == null || !f.exists() || !f.isCreate()){

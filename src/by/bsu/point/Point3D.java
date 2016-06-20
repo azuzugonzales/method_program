@@ -1,4 +1,4 @@
-package by.bsu.com.point;
+package by.bsu.point;
 public class Point3D extends Point2D {
 	private int z;
 	public Point3D(int x, int y, int z) {

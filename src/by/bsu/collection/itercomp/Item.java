@@ -1,4 +1,4 @@
-package by.bsu.com.collection.itercomp;
+package by.bsu.collection.itercomp;
 
 public class Item {
 	private int id;

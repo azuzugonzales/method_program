@@ -1,4 +1,4 @@
-package by.bsu.com.enums;
+package by.bsu.enums;
 public class ShapeRunner {
 	public static void main(String[] args) {
 		double x = 2, y = 3;

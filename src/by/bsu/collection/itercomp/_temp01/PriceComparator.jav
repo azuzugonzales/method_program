@@ -1,4 +1,4 @@
-package by.bsu.com.collection.enumcomp;
+package by.bsu.collection.enumcomp;
 
 import java.util.Comparator;
 

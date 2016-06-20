@@ -1,4 +1,4 @@
-package by.bsu.com.polymorph;
+package by.bsu.polymorph;
 
 import java.text.ParseException;
 

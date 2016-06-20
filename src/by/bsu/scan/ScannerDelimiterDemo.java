@@ -1,4 +1,4 @@
-package by.bsu.com.scan;
+package by.bsu.scan;
 import java.util.Locale;
 import java.util.Scanner;
 public class ScannerDelimiterDemo{

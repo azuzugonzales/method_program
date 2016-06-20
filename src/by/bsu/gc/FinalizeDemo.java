@@ -1,4 +1,4 @@
-package by.bsu.com.gc;
+package by.bsu.gc;
 public class FinalizeDemo{
 	public static void main(String[] args){
 		Manager d1 = new Manager(1);

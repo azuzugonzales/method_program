@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.stackoverflow.sortlist;
+package by.bsu._inet_example.stackoverflow.sortlist;
 
 import java.util.Comparator;
 

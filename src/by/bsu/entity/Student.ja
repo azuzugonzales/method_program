@@ -1,4 +1,4 @@
-package by.bsu.com.entity;
+package by.bsu.entity;
 public class Student implements Cloneable{
 	private int id = 71;
 	private String name;

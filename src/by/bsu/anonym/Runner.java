@@ -1,4 +1,4 @@
-package by.bsu.com.anonym;
+package by.bsu.anonym;
 public class Runner{
 	public static void main(String[] args){
 		String ob = "qweRtRRR";

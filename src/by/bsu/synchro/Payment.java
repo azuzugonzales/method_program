@@ -1,4 +1,4 @@
-package by.bsu.com.synchro;
+package by.bsu.synchro;
 
 import java.util.Scanner;
 

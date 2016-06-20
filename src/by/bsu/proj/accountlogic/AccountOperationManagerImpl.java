@@ -1,6 +1,6 @@
-package by.bsu.com.proj.accountlogic;
-import by.bsu.com.proj.annotation.BankingAnnotation;
-import by.bsu.com.proj.annotation.SecurityLevelEnum;
+package by.bsu.proj.accountlogic;
+import by.bsu.proj.annotation.BankingAnnotation;
+import by.bsu.proj.annotation.SecurityLevelEnum;
 public class AccountOperationManagerImpl implements AccountOperationManager{
 	@BankingAnnotation(securityLevel = SecurityLevelEnum.HIGH)
 	public double depositInCash(int accountNumber, int amount){

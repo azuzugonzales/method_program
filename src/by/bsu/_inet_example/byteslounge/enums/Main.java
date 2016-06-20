@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.byteslounge.enums;
+package by.bsu._inet_example.byteslounge.enums;
 
 public class Main {
     public static void main(String[] args) {

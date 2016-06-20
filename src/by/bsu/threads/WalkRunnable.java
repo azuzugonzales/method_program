@@ -1,4 +1,4 @@
-package by.bsu.com.threads;
+package by.bsu.threads;
 public class WalkRunnable implements Runnable{
 	@Override
 	public void run(){

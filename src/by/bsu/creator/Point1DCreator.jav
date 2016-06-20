@@ -1,4 +1,4 @@
-package by.bsu.com.creator;
+package by.bsu.creator;
 
 public class Point1DCreator{
 	public Point1D createPoint(){

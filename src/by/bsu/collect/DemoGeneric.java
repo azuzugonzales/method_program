@@ -1,4 +1,4 @@
-package by.bsu.com.collect;
+package by.bsu.collect;
 import java.util.ArrayList;
 public class DemoGeneric{
 	public static void main(String[] args){

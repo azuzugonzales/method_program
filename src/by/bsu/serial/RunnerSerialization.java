@@ -1,4 +1,4 @@
-package by.bsu.com.serial;
+package by.bsu.serial;
 import java.io.InvalidObjectException;
 public class RunnerSerialization{
 	public static void main(String[] args){

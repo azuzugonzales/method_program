@@ -1,4 +1,4 @@
-package by.bsu.com.thread.exceptmain;
+package by.bsu.thread.exceptmain;
 public class ExceptionMainDemo{
 	public static void main(String[] args){
 		new SimpleThread().start();

@@ -1,7 +1,7 @@
-package by.bsu.com.task.action;
+package by.bsu.task.action;
 
-import by.bsu.com.task.entity.Matrix;
-import by.bsu.com.task.exceptions.MatrixException;
+import by.bsu.task.entity.Matrix;
+import by.bsu.task.exceptions.MatrixException;
 
 public class Multiplicator {
     public Matrix multiply(Matrix p, Matrix q) throws MatrixException {

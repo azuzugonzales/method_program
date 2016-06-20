@@ -1,4 +1,4 @@
-package by.bsu.com.fund.bean;
+package by.bsu.fund.bean;
 public class Coin {
 	private double diameter;
 	private double weight;

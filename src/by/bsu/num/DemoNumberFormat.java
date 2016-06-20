@@ -1,4 +1,4 @@
-package by.bsu.com.num;
+package by.bsu.num;
 import java.text.*;
 import java.util.Locale;
 public class DemoNumberFormat{

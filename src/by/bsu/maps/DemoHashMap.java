@@ -1,4 +1,4 @@
-package by.bsu.com.maps;
+package by.bsu.maps;
 
 import java.util.*;
 

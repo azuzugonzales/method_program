@@ -1,4 +1,4 @@
-package by.bsu.com.management;
+package by.bsu.management;
 public class JoinRunner{
 	static {
 		System.out.println("Start thread main");

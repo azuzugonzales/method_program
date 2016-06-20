@@ -1,4 +1,4 @@
-package by.bsu.com.legacy;
+package by.bsu.legacy;
 import java.util.*;
 
 import static java.lang.Math.*;

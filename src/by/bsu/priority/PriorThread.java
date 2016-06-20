@@ -1,4 +1,4 @@
-package by.bsu.com.priority;
+package by.bsu.priority;
 public class PriorThread extends Thread{
 	public PriorThread(String name){
 		super(name);

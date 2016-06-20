@@ -1,4 +1,4 @@
-package by.bsu.com.collection.itercomp;
+package by.bsu.collection.itercomp;
 
 import java.util.ArrayList;
 import java.util.Collections;

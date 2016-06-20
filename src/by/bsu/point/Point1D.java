@@ -1,4 +1,4 @@
-package by.bsu.com.point;
+package by.bsu.point;
 public class Point1D{
 	private int x;
 	public Point1D(int x) {

@@ -1,4 +1,4 @@
-package by.bsu.com.maps.enummap;
+package by.bsu.maps.enummap;
 
 import java.util.EnumMap;
 public class Gases{

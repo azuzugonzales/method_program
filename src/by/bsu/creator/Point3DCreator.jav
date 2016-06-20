@@ -1,4 +1,4 @@
-package by.bsu.com.creator;
+package by.bsu.creator;
 
 public class Point3DCreator extends Point2DCreator{
 	@Override

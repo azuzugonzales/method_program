@@ -1,4 +1,4 @@
-package by.bsu.com.console;
+package by.bsu.console;
 public class ReadCharRunner {
 	public static void main(String[] args) {
 		int x;

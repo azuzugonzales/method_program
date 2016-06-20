@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class SortArray{
 	public static void main(String[] args){
 		String names = " Alena Alice alina albina Anastasia ALLA ArinA ";

@@ -1,4 +1,4 @@
-package by.bsu.com.daemons;
+package by.bsu.daemons;
 public class DaemonRunner{
 	public static void main(String[] args){
 		SimpleThread usual = new SimpleThread();

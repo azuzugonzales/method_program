@@ -1,4 +1,4 @@
-package by.bsu.com.action.entity;
+package by.bsu.action.entity;
 
 import static java.lang.Math.cos;
 import static java.lang.Math.pow;

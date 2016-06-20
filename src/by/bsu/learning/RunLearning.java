@@ -1,4 +1,4 @@
-package by.bsu.com.learning;
+package by.bsu.learning;
 import java.util.ArrayList;
 public class RunLearning{
 	public static void main(String[] args){

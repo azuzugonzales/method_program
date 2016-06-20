@@ -1,4 +1,4 @@
-package by.bsu.com.proj.accountlogic;
+package by.bsu.proj.accountlogic;
 public interface AccountOperationManager{
 	double depositInCash(int accountNumber, int amount);
 	boolean withdraw(int accountNumber, int amount);

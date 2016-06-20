@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.darkraha;
+package by.bsu._inet_example.darkraha;
 
 public enum EnumTest {
     RED, GREEN, BLUE, WHITE, BLACK, GRAY, YELLOW;

@@ -1,4 +1,4 @@
-package by.bsu.com.collection;
+package by.bsu.collection;
 public class Order{
 	private int orderId;
 	private float amount;

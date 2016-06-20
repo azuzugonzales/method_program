@@ -1,4 +1,4 @@
-package by.bsu.com.action.entity;
+package by.bsu.action.entity;
 
 public abstract class AbstractShape{
 	private double a;

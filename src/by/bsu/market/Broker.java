@@ -1,4 +1,4 @@
-package by.bsu.com.market;
+package by.bsu.market;
 
 public class Broker extends Thread{
 	private Market market;

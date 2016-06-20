@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.docsoracle.planet;
+package by.bsu._inet_example.docsoracle.planet;
 
 public enum Planet {
     MERCURY (3.303e+23, 2.4397e6),

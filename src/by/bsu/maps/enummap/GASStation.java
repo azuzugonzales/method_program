@@ -1,4 +1,4 @@
-package by.bsu.com.maps.enummap;
+package by.bsu.maps.enummap;
 public enum GASStation{
 	DT(50), A80(30), A92(30), A95(50), GAS(40);
 

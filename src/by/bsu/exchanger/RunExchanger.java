@@ -1,4 +1,4 @@
-package by.bsu.com.exchanger;
+package by.bsu.exchanger;
 public class RunExchanger{
 	public static void main(String[] args){
 		Item ss1 = new Item(34, 2200);

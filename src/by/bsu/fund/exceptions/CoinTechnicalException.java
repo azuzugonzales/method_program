@@ -1,4 +1,5 @@
-package by.bsu.com.fund.exception;
+package by.bsu.fund.exceptions;
+
 public class CoinTechnicalException extends Exception{
 	public CoinTechnicalException(){
 		

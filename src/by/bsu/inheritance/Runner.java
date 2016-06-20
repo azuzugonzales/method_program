@@ -1,4 +1,4 @@
-package by.bsu.com.inheritance;
+package by.bsu.inheritance;
 public class Runner{
 	public static void main(String[] args){
 		AbstractCardAction action;

@@ -1,4 +1,4 @@
-package by.bsu.com.collection.lists;
+package by.bsu.collection.lists;
 public class Item{
 	private int itemId;
 	private float price;

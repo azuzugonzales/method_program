@@ -1,4 +1,4 @@
-package by.bsu.com.enums;
+package by.bsu.enums;
 public enum TaxiStation {
 	MERSEDES(10), TOYOTA(7), VOLVO;
 	private int freeCabs;

@@ -1,4 +1,4 @@
-package by.bsu.com.packing;
+package by.bsu.packing;
 public class UnpackDemo{
 	public static void main(String[] args){
 		String nameJar = "pack\\example.jar";

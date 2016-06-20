@@ -1,4 +1,4 @@
-package by.bsu.com.stat;
+package by.bsu.stat;
 public class ImportDemo{
 	public static void main(String[] args){
 		System.out.println(2 * Math.PI * 3);

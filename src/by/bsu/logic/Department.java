@@ -1,4 +1,4 @@
-package by.bsu.com.logic;
+package by.bsu.logic;
 public class Department {
 	{
 		System.out.println("logic (1) id= " + this.id);

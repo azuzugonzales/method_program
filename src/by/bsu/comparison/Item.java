@@ -1,4 +1,4 @@
-package by.bsu.com.comparison;
+package by.bsu.comparison;
 
 import java.util.Comparator;
 

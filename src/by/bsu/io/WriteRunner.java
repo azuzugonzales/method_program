@@ -1,4 +1,4 @@
-package by.bsu.com.io;
+package by.bsu.io;
 import java.io.*;
 public class WriteRunner{
 	public static void main(String[] args){

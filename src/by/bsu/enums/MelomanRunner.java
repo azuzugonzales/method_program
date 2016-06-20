@@ -1,7 +1,7 @@
-package by.bsu.com.enums;
+package by.bsu.enums;
 public class MelomanRunner {
 	public static void main(String[] args) {
-		MusicStyle ms = MusicStyle.CLASSIC; // �������������
+		MusicStyle ms = MusicStyle.CLASSIC;
 		System.out.print(ms);
 		switch(ms) {
 			case JAZZ:

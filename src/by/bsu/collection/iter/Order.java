@@ -1,4 +1,4 @@
-package by.bsu.com.collection.iter;
+package by.bsu.collection.iter;
 public class Order{
 	private int orderId;
 	private float amount;

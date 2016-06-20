@@ -1,4 +1,4 @@
-package by.bsu.com.enums.anonym;
+package by.bsu.enums.anonym;
 public enum Shape{
 	RECTANGLE, SQUARE, TRIANGLE{
 		public double computeSquare(){

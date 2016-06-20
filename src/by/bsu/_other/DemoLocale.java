@@ -1,4 +1,4 @@
-package by.bsu.com._other;
+package by.bsu._other;
 import java.util.Locale;
 public class DemoLocale{
 	public static void main(String[] args){

@@ -1,4 +1,4 @@
-package by.bsu.com.threads;
+package by.bsu.threads;
 public class TalkThread extends Thread{
 	@Override
 	public void run(){

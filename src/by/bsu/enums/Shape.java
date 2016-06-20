@@ -1,4 +1,4 @@
-package by.bsu.com.enums;
+package by.bsu.enums;
 public enum Shape {
 	RECTANGLE, TRIANGLE, CIRCLE;
 	public double defineSquare(double ... x) {

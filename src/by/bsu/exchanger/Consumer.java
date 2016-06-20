@@ -1,4 +1,4 @@
-package by.bsu.com.exchanger;
+package by.bsu.exchanger;
 public class Consumer extends Subject implements Runnable{
 	public Consumer(String name, Item item){
 		super(name, item);

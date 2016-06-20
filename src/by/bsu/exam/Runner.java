@@ -1,4 +1,4 @@
-package by.bsu.com.exam;
+package by.bsu.exam;
 public class Runner {
 	public static void main(String[] args) {
 		Exam<Double> md1 = new Exam<Double>(71.41D, "Progr");

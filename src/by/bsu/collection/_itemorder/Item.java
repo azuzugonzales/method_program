@@ -1,4 +1,4 @@
-package by.bsu.com.collection._itemorder;
+package by.bsu.collection._itemorder;
 
 public class Item{
 	private int itemId;

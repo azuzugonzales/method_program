@@ -1,6 +1,6 @@
-package by.bsu.com.data.connect;
+package by.bsu.data.connect;
 
-import by.bsu.com.data.subject.Abonent;
+import by.bsu.data.subject.Abonent;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

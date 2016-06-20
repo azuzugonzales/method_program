@@ -1,5 +1,7 @@
-package by.bsu.com.auction;
+package by.bsu.auction;
+
 import java.util.Random;
+
 public class AuctionRunner{
 	public static void main(String[] args){
 		Auction auction = new Auction();

@@ -1,4 +1,4 @@
-package by.bsu.com.arg;
+package by.bsu.arg;
 public class PrintArguments {
 	public static void main(String[] args) {
 		for (String str : args) {

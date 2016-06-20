@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.lastname;
+package by.bsu._inet_example.beginnersbook.lastname;
 
 class CompLastName implements Comparable{
 	

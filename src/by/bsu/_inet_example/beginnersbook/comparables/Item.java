@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.comparables;
+package by.bsu._inet_example.beginnersbook.comparables;
 
 class Item implements Comparable<Item>{
 	public int value;

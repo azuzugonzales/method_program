@@ -1,4 +1,4 @@
-package by.bsu.com.resource;
+package by.bsu.resource;
 import java.util.Locale;
 import java.util.ResourceBundle;
 public enum ResourceManager{

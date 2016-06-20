@@ -1,12 +1,12 @@
-package by.bsu.com.proj.annotation.logic;
+package by.bsu.proj.annotation.logic;
+
+import by.bsu.proj.accountlogic.AccountOperationManager;
+import by.bsu.proj.annotation.BankingAnnotation;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
-import by.bsu.com.proj.accountlogic.AccountOperationManager;
-import by.bsu.com.proj.annotation.BankingAnnotation;
 
 public class SecurityFactory {
     public static AccountOperationManager createSecurityObject(AccountOperationManager targetObject) {

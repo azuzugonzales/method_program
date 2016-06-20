@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class RefStringBuilder{
 	public static void changeStr(StringBuilder s){
 		s.append(" Certified");

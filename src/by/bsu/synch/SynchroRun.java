@@ -1,4 +1,4 @@
-package by.bsu.com.synch;
+package by.bsu.synch;
 import java.io.IOException;
 public class SynchroRun{
 	public static void main(String[] args){

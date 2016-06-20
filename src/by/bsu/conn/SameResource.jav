@@ -1,4 +1,4 @@
-package by.bsu.com.conn;
+package by.bsu.conn;
 public class SameResource{
 	public boolean isCreate(){
 		

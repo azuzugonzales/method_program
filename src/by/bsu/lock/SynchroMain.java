@@ -1,4 +1,4 @@
-package by.bsu.com.lock;
+package by.bsu.lock;
 import java.util.concurrent.TimeUnit;
 public class SynchroMain{
 	public static void main(String[] args) throws InterruptedException {

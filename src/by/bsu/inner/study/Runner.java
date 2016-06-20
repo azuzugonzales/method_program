@@ -1,4 +1,4 @@
-package by.bsu.com.inner.study;
+package by.bsu.inner.study;
 public class Runner{
 	public static void main(String[] args){
 		TeacherLogic tl = new TeacherLogic();

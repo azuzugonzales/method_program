@@ -1,4 +1,4 @@
-package by.bsu.com.collection.itercomp._temp01;
+package by.bsu.collection.itercomp._temp01;
 
 import java.util.Comparator;
 

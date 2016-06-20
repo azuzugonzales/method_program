@@ -1,4 +1,4 @@
-package by.bsu.com.anonym;
+package by.bsu.anonym;
 public class WrapperString{
 	private String str;
 	public WrapperString(String str){

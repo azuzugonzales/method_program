@@ -1,4 +1,4 @@
-package by.bsu.com.transformation;
+package by.bsu.transformation;
 public class StringToInt {
 	public static void main(String[] args) {
 		String arg = "71";

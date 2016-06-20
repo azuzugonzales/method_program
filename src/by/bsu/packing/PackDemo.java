@@ -1,4 +1,4 @@
-package by.bsu.com.packing;
+package by.bsu.packing;
 import java.io.FileNotFoundException;
 public class PackDemo{
 	public static void main(String[] args){

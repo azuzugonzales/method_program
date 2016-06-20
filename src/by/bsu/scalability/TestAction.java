@@ -1,4 +1,4 @@
-package by.bsu.com.scalability;
+package by.bsu.scalability;
 import java.util.Random;
 public class TestAction{
 	public AbstractQuest[] generateTest(final int NUMBER_QUESTS, int maxMode){

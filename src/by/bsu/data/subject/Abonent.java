@@ -1,4 +1,4 @@
-package by.bsu.com.data.subject;
+package by.bsu.data.subject;
 
 public class Abonent extends Entity{
 	private int phone;

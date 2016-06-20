@@ -1,4 +1,4 @@
-package by.bsu.com.thread;
+package by.bsu.thread;
 public class ExceptThread extends Thread{
 	public void run(){
 		boolean flag = true;

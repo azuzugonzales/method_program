@@ -1,7 +1,7 @@
-package by.bsu.com.collection.enumcomp;
+package by.bsu.collection.enumcomp;
 
-import by.bsu.com.collection._itemorder.fullitemenum.FullItemEnum;
-import by.bsu.com.collection._itemorder.itemenum.ItemEnum;
+import by.bsu.collection._itemorder.fullitemenum.FullItemEnum;
+import by.bsu.collection._itemorder.itemenum.ItemEnum;
 
 import java.util.ArrayList;
 import java.util.Collections;

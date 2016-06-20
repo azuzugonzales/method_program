@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.comparators;
+package by.bsu._inet_example.beginnersbook.comparators;
 
 class Product{
 	private String name;

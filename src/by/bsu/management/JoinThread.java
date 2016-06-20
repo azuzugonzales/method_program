@@ -1,4 +1,4 @@
-package by.bsu.com.management;
+package by.bsu.management;
 class JoinThread extends Thread{
 	public JoinThread(String name){
 		super(name);

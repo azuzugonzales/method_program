@@ -1,4 +1,4 @@
-package by.bsu.com.data.connect;
+package by.bsu.data.connect;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

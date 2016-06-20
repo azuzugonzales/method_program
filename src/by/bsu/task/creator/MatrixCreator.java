@@ -1,7 +1,7 @@
-package by.bsu.com.task.creator;
+package by.bsu.task.creator;
 
-import by.bsu.com.task.entity.Matrix;
-import by.bsu.com.task.exceptions.MatrixException;
+import by.bsu.task.entity.Matrix;
+import by.bsu.task.exceptions.MatrixException;
 
 public class MatrixCreator {
     public static void fillRandomized(Matrix t, int start, int end) {

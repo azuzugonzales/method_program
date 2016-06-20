@@ -1,4 +1,4 @@
-package by.bsu.com.format;
+package by.bsu.format;
 import java.util.Formatter;
 public class SimpleFormatString{
 	public static void main(String[] args){

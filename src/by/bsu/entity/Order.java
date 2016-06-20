@@ -1,4 +1,4 @@
-package by.bsu.com.entity;
+package by.bsu.entity;
 public class Order {
 	private int id;
 	static int bonus;

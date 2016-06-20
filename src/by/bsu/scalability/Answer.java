@@ -1,4 +1,4 @@
-package by.bsu.com.scalability;
+package by.bsu.scalability;
 public class Answer{
 	
 }

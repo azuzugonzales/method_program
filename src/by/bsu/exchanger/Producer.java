@@ -1,4 +1,4 @@
-package by.bsu.com.exchanger;
+package by.bsu.exchanger;
 public class Producer extends Subject implements Runnable{
 	public Producer(String name, Item item){
 		super(name, item);

@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class EqualStrings{
 	public static void main(String[] args){
 		String s1 = "Java";

@@ -1,4 +1,4 @@
-package by.bsu.com.lock;
+package by.bsu.lock;
 import java.util.Random;
 public class ResThread extends Thread{
 	private DoubleResource resource;

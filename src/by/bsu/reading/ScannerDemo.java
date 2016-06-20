@@ -1,4 +1,4 @@
-package by.bsu.com.reading;
+package by.bsu.reading;
 import java.io.*;
 import java.util.Scanner;
 public class ScannerDemo{

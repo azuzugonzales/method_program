@@ -1,4 +1,4 @@
-package by.bsu.com.thread.exceptmain;
+package by.bsu.thread.exceptmain;
 public class SimpleThread extends Thread{
 	public void run(){
 		try{

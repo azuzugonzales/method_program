@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.dotnetperls.vectorcollectionssort;
+package by.bsu._inet_example.dotnetperls.vectorcollectionssort;
 
 import java.util.Collections;
 import java.util.Vector;

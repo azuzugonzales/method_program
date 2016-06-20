@@ -1,4 +1,4 @@
-package by.bsu.com.dates;
+package by.bsu.dates;
 import java.text.DateFormat;
 import java.util.*;
 public class DemoDateFormat{

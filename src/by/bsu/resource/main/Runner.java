@@ -1,8 +1,8 @@
-package by.bsu.com.resource.main;
+package by.bsu.resource.main;
 import java.util.LinkedList;
-import by.bsu.com.resource.pool.AudioChannel;
-import by.bsu.com.resource.pool.ChannelPool;
-import by.bsu.com.resource.pool.Client;
+import by.bsu.resource.pool.AudioChannel;
+import by.bsu.resource.pool.ChannelPool;
+import by.bsu.resource.pool.Client;
 public class Runner{
 	public static void main(String[] args){
 		LinkedList<AudioChannel> list = new LinkedList<AudioChannel>(){

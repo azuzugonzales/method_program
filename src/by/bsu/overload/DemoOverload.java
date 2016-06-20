@@ -1,4 +1,4 @@
-package by.bsu.com.overload;
+package by.bsu.overload;
 public class DemoOverload{
 	public static void printArgCount(Object... args) { //1
 		System.out.println("Object args: " + args.length);

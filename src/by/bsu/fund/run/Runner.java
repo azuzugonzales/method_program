@@ -1,6 +1,6 @@
-package by.bsu.com.fund.run;
-import by.bsu.com.fund.bean.Coin;
-import by.bsu.com.fund.action.CompareCoin;
+package by.bsu.fund.run;
+import by.bsu.fund.bean.Coin;
+import by.bsu.fund.action.CompareCoin;
 public class Runner {
 	public static void main(String[] args) {
 		Coin ob1 = new Coin();

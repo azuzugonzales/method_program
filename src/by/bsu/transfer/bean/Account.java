@@ -1,4 +1,4 @@
-package by.bsu.com.transfer.bean;
+package by.bsu.transfer.bean;
 public class Account {
 	private long id;
 	private double amount;

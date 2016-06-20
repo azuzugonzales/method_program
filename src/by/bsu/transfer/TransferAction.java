@@ -1,5 +1,5 @@
-package by.bsu.com.transfer;
-import by.bsu.com.transfer.bean.Account;
+package by.bsu.transfer;
+import by.bsu.transfer.bean.Account;
 public class TransferAction {
 	private double transactionAmount;
 	public TransferAction(double amount) {

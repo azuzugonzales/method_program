@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.learningviacode.sortingenums_v2;
+package by.bsu._inet_example.learningviacode.sortingenums_v2;
 
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package by.bsu.com.learning;
+package by.bsu.learning;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

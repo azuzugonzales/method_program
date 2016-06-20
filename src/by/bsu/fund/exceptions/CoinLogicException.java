@@ -1,4 +1,4 @@
-package by.bsu.com.fund.exceptions;
+package by.bsu.fund.exceptions;
 public class CoinLogicException extends Exception{
 	public CoinLogicException(){
 		

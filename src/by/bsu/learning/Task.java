@@ -1,4 +1,4 @@
-package by.bsu.com.learning;
+package by.bsu.learning;
 public class Task{
 	private String content;
 	private String answer;

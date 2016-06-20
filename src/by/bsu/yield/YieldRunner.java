@@ -1,4 +1,4 @@
-package by.bsu.com.yield;
+package by.bsu.yield;
 public class YieldRunner{
 	public static void main(String[] args){
 		new Thread(){	// anonym class

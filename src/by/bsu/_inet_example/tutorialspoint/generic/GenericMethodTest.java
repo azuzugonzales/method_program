@@ -1,5 +1,5 @@
 /*
-package by.bsu.com._inet_example.tutorialspoint.generic;
+package by.bsu._inet_example.tutorialspoint.generic;
 
 public class GenericMethodTest {
     // generic

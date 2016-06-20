@@ -1,4 +1,4 @@
-package by.bsu.com.serial;
+package by.bsu.serial;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

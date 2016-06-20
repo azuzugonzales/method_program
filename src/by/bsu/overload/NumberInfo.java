@@ -1,4 +1,4 @@
-package by.bsu.com.overload;
+package by.bsu.overload;
 public class NumberInfo {
 	public static void viewNum(Integer i) { // 1
 		System.out.printf("Integer = %d%n", i);

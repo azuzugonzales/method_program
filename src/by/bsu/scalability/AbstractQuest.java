@@ -1,4 +1,4 @@
-package by.bsu.com.scalability;
+package by.bsu.scalability;
 public abstract class AbstractQuest{
 	private long id;
 	private String questContent;

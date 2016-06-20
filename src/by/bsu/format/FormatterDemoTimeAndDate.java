@@ -1,4 +1,4 @@
-package by.bsu.com.format;
+package by.bsu.format;
 import java.util.*;
 public class FormatterDemoTimeAndDate{
 	public static void main(String[] args){

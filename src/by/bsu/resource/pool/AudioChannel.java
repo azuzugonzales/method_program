@@ -1,4 +1,4 @@
-package by.bsu.com.resource.pool;
+package by.bsu.resource.pool;
 public class AudioChannel{
 	private int channellId;
 	public AudioChannel(int id){

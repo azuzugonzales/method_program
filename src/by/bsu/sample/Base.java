@@ -1,4 +1,4 @@
-package by.bsu.com.sample;
+package by.bsu.sample;
 class Base{
 	public static void go(){
 		System.out.println("method from Base");

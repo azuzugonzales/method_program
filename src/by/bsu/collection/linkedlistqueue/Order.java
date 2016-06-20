@@ -1,4 +1,4 @@
-package by.bsu.com.collection.linkedlistqueue;
+package by.bsu.collection.linkedlistqueue;
 import java.util.ArrayList;
 
 public class Order extends ArrayList<Item>{

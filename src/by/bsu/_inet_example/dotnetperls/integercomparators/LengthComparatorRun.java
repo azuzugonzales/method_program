@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.dotnetperls.integercomparators;
+package by.bsu._inet_example.dotnetperls.integercomparators;
 
 import java.util.Arrays;
 

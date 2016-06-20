@@ -1,4 +1,4 @@
-package by.bsu.com.resource.exception;
+package by.bsu.resource.exception;
 public class ResourceException extends Exception{
 	public ResourceException(String message, Throwable cause){
 		super(message, cause);

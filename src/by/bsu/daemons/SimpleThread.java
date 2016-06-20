@@ -1,4 +1,4 @@
-package by.bsu.com.daemons;
+package by.bsu.daemons;
 public class SimpleThread extends Thread{
 	public void run(){
 		try{

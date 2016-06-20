@@ -1,5 +1,5 @@
-package by.bsu.com.fund.entity;
-import by.bsu.com.fund.exceptions.CoinLogicException;
+package by.bsu.fund.entity;
+import by.bsu.fund.exceptions.CoinLogicException;
 public class Coin {
 	private double diameter;
 	private double weight;

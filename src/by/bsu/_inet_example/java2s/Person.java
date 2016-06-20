@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.java2s;
+package by.bsu._inet_example.java2s;
 
 public class Person {
     private Level severity;

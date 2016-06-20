@@ -1,4 +1,4 @@
-package by.bsu.com.strings;
+package by.bsu.strings;
 public class ComparisonStrings {
 	public static void main(String[] args) {
 		String s1, s2;

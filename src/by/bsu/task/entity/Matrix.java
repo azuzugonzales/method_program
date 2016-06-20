@@ -1,6 +1,6 @@
-package by.bsu.com.task.entity;
+package by.bsu.task.entity;
 
-import by.bsu.com.task.exceptions.MatrixException;
+import by.bsu.task.exceptions.MatrixException;
 
 public class Matrix {
     private int[][] a;

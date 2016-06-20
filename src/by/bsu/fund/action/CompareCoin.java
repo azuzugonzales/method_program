@@ -1,5 +1,5 @@
-package by.bsu.com.fund.action;
-import by.bsu.com.fund.bean.Coin;
+package by.bsu.fund.action;
+import by.bsu.fund.bean.Coin;
 public class CompareCoin {
 	public void compareDiameter(Coin first, Coin second) {
 		double delta = first.getDiameter() - second.getDiameter();

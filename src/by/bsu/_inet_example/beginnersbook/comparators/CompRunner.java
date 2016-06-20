@@ -1,4 +1,4 @@
-package by.bsu.com._inet_example.beginnersbook.comparators;
+package by.bsu._inet_example.beginnersbook.comparators;
 
 import java.util.TreeSet;
 import java.util.Iterator;

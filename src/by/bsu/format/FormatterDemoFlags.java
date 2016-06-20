@@ -1,4 +1,4 @@
-package by.bsu.com.format;
+package by.bsu.format;
 import java.util.*;
 public class FormatterDemoFlags{
 	public static void main(String[] args){

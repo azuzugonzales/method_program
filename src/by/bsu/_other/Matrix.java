@@ -1,3 +1,5 @@
+package by.bsu._other;
+
 public class Matrix {
 	private int[][] a;
 	private int n;
