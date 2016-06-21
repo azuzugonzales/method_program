@@ -1,4 +1,4 @@
-package by.bsu.com.construction;
+package by.bsu.construction;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;

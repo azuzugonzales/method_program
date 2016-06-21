@@ -1,4 +1,4 @@
-package by.bsu.com.creator;
+package by.bsu.creator;
 
 public class BuildRunner{
 	public static void main(String[] args){

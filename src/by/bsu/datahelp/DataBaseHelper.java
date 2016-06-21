@@ -1,5 +1,6 @@
-package by.bsu.data.connect;
+package by.bsu.datahelp;
 
+import by.bsu.data.connect.ConnectorDB;
 import by.bsu.data.subject.Abonent;
 
 import java.sql.Connection;

@@ -1,4 +1,4 @@
-package by.bsu.com.proj.accountlogic;
+package by.bsu.proj.accountlogic;
 public class AccountBaseActionImpl implements AccountBaseAction{
 	public boolean openAccount(){
 		

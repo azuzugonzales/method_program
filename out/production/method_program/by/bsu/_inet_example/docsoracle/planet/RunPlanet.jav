@@ -1,6 +1,6 @@
-package by.bsu.com._inet_example.docsoracle.planet;
+package by.bsu._inet_example.docsoracle.planet;
 
-import by.bsu.com._inet_example.docsoracle.planet.*;
+import by.bsu._inet_example.docsoracle.planet.*;
 
 public class RunPlanet extends Planet{
 

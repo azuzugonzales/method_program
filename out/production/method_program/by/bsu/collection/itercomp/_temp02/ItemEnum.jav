@@ -1,4 +1,4 @@
-package by.bsu.com.collection.itercomp._temp02;
+package by.bsu.collection.itercomp._temp02;
 
 public enum ItemEnum {
     ITEM_ID, PRICE, NAME;

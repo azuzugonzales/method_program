@@ -1,6 +1,6 @@
-package by.bsu.com.collection._itemorder.fullitemenum;
+package by.bsu.collection._itemorder.fullitemenum;
 
-import by.bsu.com.collection.enumcomp.ItemInterface;
+import by.bsu.collection.enumcomp.ItemInterface;
 
 public enum FullItemEnum implements ItemInterface{
 	ITEM_ID(true), PRICE(false), NAME(true);

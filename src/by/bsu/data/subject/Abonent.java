@@ -10,7 +10,7 @@ public class Abonent extends Entity{
 	public Abonent(int id, int phone, String lastname){
 		super(id);
 		this.phone = phone;
-		this.lastname = lastname;		
+		this.lastname = lastname;
 	}
 	
 	public int getPhone(){

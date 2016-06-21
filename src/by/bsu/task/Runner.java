@@ -1,8 +1,8 @@
-package by.bsu.com.task;
-import by.bsu.com.task.action.Multiplicator;
-import by.bsu.com.task.creator.MatrixCreator;
-import by.bsu.com.task.entity.Matrix;
-import by.bsu.com.task.exceptions.MatrixException;
+package by.bsu.task;
+import by.bsu.task.action.Multiplicator;
+import by.bsu.task.creator.MatrixCreator;
+import by.bsu.task.entity.Matrix;
+import by.bsu.task.exceptions.MatrixException;
 
 public class Runner {
 	public static void main(String[] args){

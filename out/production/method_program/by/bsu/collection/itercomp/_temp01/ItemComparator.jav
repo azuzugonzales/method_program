@@ -1,6 +1,6 @@
-package by.bsu.com.collection.enumcomp;
+package by.bsu.collection.enumcomp;
 
-import by.bsu.com.collection.lists.Item;
+import by.bsu.collection.lists.Item;
 
 import java.util.Comparator;
 

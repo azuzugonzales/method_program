@@ -1,4 +1,4 @@
-package by.bsu.com.collection;
+package by.bsu.collection;
 import java.util.Comparator;
 
 public class Item{

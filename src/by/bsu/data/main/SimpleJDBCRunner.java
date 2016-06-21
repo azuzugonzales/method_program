@@ -1,5 +1,5 @@
 package by.bsu.data.main;
-//package by.bsu.com.data.main;
+//package by.bsu.data.main;
 
 import by.bsu.data.subject.Abonent;
 

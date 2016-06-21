@@ -1,4 +1,4 @@
-package by.bsu.com.immutable;
+package by.bsu.immutable;
 public class ImmutableObject {
 	private String name;
 	private int id;

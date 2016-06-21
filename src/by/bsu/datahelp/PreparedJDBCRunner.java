@@ -1,7 +1,6 @@
-package by.bsu.com.data.main;
+package by.bsu.datahelp;
 
-import by.bsu.com.data.connect.DataBaseHelper;
-import by.bsu.com.data.subject.Abonent;
+import by.bsu.data.subject.Abonent;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -11,8 +10,8 @@ public class PreparedJDBCRunner{
 	public static void main(String[] args){
 		ArrayList<Abonent> list = new ArrayList<Abonent>(){
 			{
-				add(new Abonent(87, 1658468, "Koguh Dmitri"));
-				add(new Abonent(51, 8866711, "Bujkevich Alecsandr"));
+				add(new Abonent(87, 1658468, "Koguh"));
+				add(new Abonent(51, 8866711, "Bujkevich"));
 			}
 		};
 		DataBaseHelper helper = null;
@@ -25,8 +24,10 @@ public class PreparedJDBCRunner{
 			}
 		} catch(SQLException e){
 			e.printStackTrace();
-		} finally{
-			helper.closeStatement(statement);
+		} finally {
+			if (helper != null) {
+				helper.closeStatement(statement) ;
+			}
 		}
 	}
 }

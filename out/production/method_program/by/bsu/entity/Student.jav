@@ -1,4 +1,4 @@
-package by.bsu.com.entity;
+package by.bsu.entity;
 public class Student{
 	private int id;
 	private String name;

@@ -1,4 +1,4 @@
-package by.bsu.com.conn;
+package by.bsu.conn;
 
 import by.bsu.com.fund.entity.Coin;
 import by.bsu.com.fund.exceptions.CoinLogicException;

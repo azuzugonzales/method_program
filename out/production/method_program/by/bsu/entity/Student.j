@@ -1,4 +1,4 @@
-package by.bsu.com.entity;
+package by.bsu.entity;
 import java.util.Vector;
 public class Student implements Cloneable{
 	private int id = 7;
